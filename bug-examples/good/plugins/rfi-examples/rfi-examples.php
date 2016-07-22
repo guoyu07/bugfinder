@@ -351,3 +351,38 @@ Example12_1::include_code1($var3);
 Example12_1::include_code2($var1);
 Example12_1::include_code2($var2);
 Example12_1::include_code2($var3);
+
+require_once     (
+  "../../library/example11.class.php" );
+
+include_once("../../library/example12.class.php");
+
+include("../../library/recursive.php");
+/**
+ * PARSE BUG TEST #1:
+ * let's see if it's removing blocks from main and leaving code.
+ */
+for (;;) {
+  echo "HOLA";
+}
+
+do {
+  echo "HOLA";
+} while (true); // should take after '}' but not a problem
+
+{
+  echo "HOLA";
+}
+
+if (1) {
+  echo "HOLA";
+} else if (1) {
+  echo "HOLA";
+} else {
+  echo "HOLA";
+}
+
+switch (1) {
+  case 1: break;
+  default: break;
+}

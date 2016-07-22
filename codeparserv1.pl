@@ -376,7 +376,7 @@ print "Saving parsed software structure as package " . $out_package . " into " .
 open my $fh, ">", $out_file or die "open: $!";
 print $fh "#!/usr/bin/perl -l\n";
 print $fh "package " . $out_package . ";\n";
-print $fh "use strict;\nuse warnings;\nuse Data::Dump qw(dump);\nmy \%code = ";
+print $fh "use strict;\nuse warnings;\nuse Data::Dump qw(dump);\nmy \%library = ";
 print $fh dump(%final_hash);
 print $fh ";";
 #print $fh "\"$out_package\"";

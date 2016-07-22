@@ -38,4 +38,5 @@ class Example12_1 extends Example12_2 {
   }
 }
 
+class_12();
  ?>

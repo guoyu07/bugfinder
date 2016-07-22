@@ -28,3 +28,5 @@ class Example11_1 extends Example11_2 {
     $this->include_code($var);
   }
 }
+
+class_11();

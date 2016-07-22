@@ -1,0 +1,605 @@
+#UPB-Standard-Form html,#UPB-Standard-Form body,#UPB-Standard-Form span,#UPB-Standard-Form applet,#UPB-Standard-Formobject,#UPB-Standard-Form iframe,#UPB-Standard-Form h1,#UPB-Standard-Form h2,#UPB-Standard-Form h3,#UPB-Standard-Form h4,#UPB-Standard-Form h5,#UPB-Standard-Form h6,#UPB-Standard-Form p,#UPB-Standard-Form blockquote,#UPB-Standard-Form a,#UPB-Standard-Form abbr,#UPB-Standard-Form acronym,#UPB-Standard-Form address,#UPB-Standard-Form big,#UPB-Standard-Form cite,#UPB-Standard-Form del,#UPB-Standard-Form dfn,#UPB-Standard-Form em,#UPB-Standard-Form img,#UPB-Standard-Form ins,#UPB-Standard-Form kbd,#UPB-Standard-Form q,#UPB-Standard-Form s,#UPB-Standard-Form samp,#UPB-Standard-Form small,#UPB-Standard-Form strike,#UPB-Standard-Form strong,#UPB-Standard-Form sub,#UPB-Standard-Form sup,#UPB-Standard-Form tt,#UPB-Standard-Form var,#UPB-Standard-Form b,#UPB-Standard-Form u,#UPB-Standard-Form i,#UPB-Standard-Form center,#UPB-Standard-Form dl,#UPB-Standard-Form dt,#UPB-Standard-Form dd,#UPB-Standard-Form ol,#UPB-Standard-Form ul,#UPB-Standard-Form li,#UPB-Standard-Form fieldset,#UPB-Standard-Form form,#UPB-Standard-Form label,#UPB-Standard-Form legend,#UPB-Standard-Form table,#UPB-Standard-Form caption,#UPB-Standard-Form tbody,#UPB-Standard-Form tfoot,#UPB-Standard-Form thead,#UPB-Standard-Form tr,#UPB-Standard-Formth,#UPB-Standard-Form td,#UPB-Standard-Form article,#UPB-Standard-Form aside,#UPB-Standard-Form canvas,#UPB-Standard-Form details,#UPB-Standard-Form embed,#UPB-Standard-Form figure,#UPB-Standard-Form figcaption,#UPB-Standard-Form footer,#UPB-Standard-Form header,#UPB-Standard-Form hgroup,#UPB-Standard-Form input,#UPB-Standard-Form menu,#UPB-Standard-Form nav,#UPB-Standard-Form output,#UPB-Standard-Form ruby,#UPB-Standard-Form section,#UPB-Standard-Form summary,#UPB-Standard-Form time,#UPB-Standard-Form mark,#UPB-Standard-Form audio,#UPB-Standard-Form video {
+border: 0;
+margin: 0;
+padding: 0;
+vertical-align: baseline;
+}
+#UPB-Standard-Form{
+word-wrap:break-word !important;
+-webkit-hyphens: auto;
+-moz-hyphens: auto;
+-ms-hyphens: auto;
+hyphens: auto;
+}
+#UPB-Standard-Form a{
+text-decoration:none;
+}
+#UPB-Standard-Form a:focus,
+#UPB-Standard-Form a:active,
+#UPB-Standard-Form a:hover,
+#UPB-Standard-Form a:visited{
+box-shadow:none;
+border:none;
+outline:none;
+text-decoration:none;
+}
+#UPB-Standard-Form .parent-selector:after {
+content: "";
+display: table;
+clear: both;
+}
+#UPB-Standard-Form .wrap:after {
+content: "";
+display: table;
+clear: both;
+}
+.clear{
+clear:both;
+}
+#UPB-Standard-Form{
+box-sizing:content-box;
+line-height: 1.42857;
+width: 100%;
+height:auto;
+}
+#UPB-Standard-Form #UPB-Standard-Form-entry-content{
+height:auto;
+background-color: #f9f9f9;
+border-top: 8px solid #000;
+padding: 26px 15px;
+}
+#UPB-Standard-Form #UPB-Standard-Form-entry-content .UPB-Standard-Form-main-upb-form{
+height:auto;
+}
+#UPB-Standard-Form #UPB-Standard-Form-entry-content .UPB-Standard-Form-main-upb-form .already-logged{
+height:auto;
+}
+#UPB-Standard-Form #UPB-Standard-Form-entry-content .UPB-Standard-Form-main-upb-form .You-are-already-logged-in{
+text-align:center;
+margin-bottom:15px;
+margin-top:15px;
+height:auto;
+}
+#UPB-Standard-Form #UPB-Standard-Form-entry-content .UPB-Standard-Form-main-upb-form .You-are-already-logged-in h3{
+display: block;
+font-size: 1.17em;
+font-weight:normal;
+margin:0;
+}
+#UPB-Standard-Form #UPB-Button-area{
+background-color: #f9f9f9;
+margin-top: 15px;
+padding: 26px 0;
+text-align: center;
+}
+#UPB-Standard-Form .UPB-Button-input{
+margin-bottom:15px;
+height:auto;
+text-align:center;
+}
+#UPB-Standard-Form .forgot-passwordd{
+	margin-top:15px;
+}
+#UPB-Standard-Form .UPB-Button-input .UPB-Button{
+background: #f1b900; /* Older browsers */
+background: -moz-linear-gradient(top,  #ffc600 0%, #ffaa00 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffc600), color-stop(100%,#ffaa00)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffc600 0%,#ffaa00 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffc600 0%,#ffaa00 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffc600 0%,#ffaa00 100%); /* IE10+ */
+background: linear-gradient(top,  #ffc600 0%,#ffaa00 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc600', endColorstr='#ffaa00',GradientType=0 ); /* IE6-9 */
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+border-top: 1px solid #ffc600;
+display:inline-block;
+text-decoration:none;
+color: white;
+padding: 4px  23px 6px 23px;
+text-decoration: none;
+text-shadow: 0 -1px 0 #e09a00;
+cursor:pointer;
+vertical-align: middle;
+}
+#UPB-Standard-Form .UPB-Button-input .UPB-Button:hover,#UPB-Standard-Form .UPB-Button-input .UPB-Button:active{
+border-top-color: #f1b900;
+background: #f1b900;
+}
+#UPB-Standard-Form input[type="submit"]:hover,
+#UPB-Standard-Form input[type="submit"]:active{
+border-top-color: #f1b900;
+background: #f1b900 !important;
+}
+.UPB-login-form{
+height:auto;
+margin:0;
+}
+.UPB-login-form .formtable{
+margin: 0 0 10px !important;
+}
+.UPB-login-form .formtable label {
+float: left;
+font-weight: 100;
+line-height: 35px;
+padding-right: 10px !important;
+text-align: right;
+width:41%;
+position:relative;
+display:inline-block;
+}
+.term-label{
+width:auto !important;
+line-height:normal !important;
+float:none !important;
+}
+.term-box{
+height:auto;
+margin-bottom:10px;
+}
+.UPB-login-form .formtable input[type="text"], 
+.UPB-login-form .formtable input[type="password"], 
+.UPB-login-form .formtable input[type="file"] {
+background-color: #fff;
+border: 1px solid #ebebeb !important;
+color: #8a8a8a;
+font-style: italic;
+border-radius: 5px;
+display:inline-block;
+height: 35px;
+padding: 0 10px !important;
+width: 52%;
+}
+.UPB-Button-input input[type="text"]{
+background-color: #fff;
+border: 1px solid #ebebeb !important;
+color: #8a8a8a;
+font-style: italic;
+border-radius: 5px;
+height: 30px;
+padding: 0 10px !important;
+width:auto !important;
+}
+.UPB-login-form .formtable select{
+background-color: #fff;
+border: 1px solid #ebebeb !important;
+color: #8a8a8a;
+height: 35px;
+line-height:30px;
+padding: 0 10px !important;
+width: 52%;
+}
+.UPB-login-form .forgot-password {
+font-size: 13px;
+font-weight: 100;
+letter-spacing: 1px;
+
+}
+.UPB-login-form .forgot-password input[type="checkbox"]{
+position:relative;
+top:2px;
+}
+.UPB-login-form .form-text{
+text-align:center;
+}
+#top-entry-header{
+height:auto;
+margin-bottom:8px !important;
+}
+.cancel-and-go{
+float:right;
+text-decoration:none;
+}
+.UPB-Standard-form-second-tittle{
+margin-top:15px !important;
+margin-bottom:15px !important;
+}
+#UPB-Additional-Information{
+padding-top:20px;
+}
+#UPB-Additional-Information .additional-information-heading{
+margin-bottom:10px;
+}
+#UPB-Additional-Information h2{
+display: block;
+font-size: 2em;
+margin:0;
+}
+#UPB-Additional-Information .information-heading{
+margin-bottom:10px;
+}
+#UPB-Additional-Information h3{
+display: block;
+font-size: 1.17em;
+margin:0;
+}
+#UPB-Additional-Information .paragraph{
+text-align:justify;
+margin-bottom:20px !important;
+overflow:hidden;
+}
+.radio{
+line-height: 35px;
+float:left;
+width:56%;
+margin:0 !important;
+padding-left:0 !important;
+}
+.radio input[type="checkbox"],
+.radio input[type="radio"]{
+margin-left:5px !important;
+margin-right:5px !important;
+position:relative;
+top:2px;
+float:none !important;
+}
+.right{
+float:right;
+}
+#top-entry-header-user-name h3{
+float:left;
+line-height:35px;
+}
+.profile-img-device-box{
+height:auto !important;
+margin-bottom:15px !important;
+}
+.img-box{
+background-color: #fff;
+height: 172px;
+padding: 14px;
+width: 172px;
+overflow: hidden;
+}
+.img-box img{
+width:100%;
+}
+.profile-img-device-box .left-box{
+float:left;
+width:40%;
+margin-right:30px !important;
+}
+.profile-img-device-box .right-box{
+float:right;
+width:50%;
+text-align:right;
+}
+.user-name-info{
+font-style: italic;
+line-height:23px;
+}
+.custom_fields-box{
+margin-top: 15px !important;
+}
+.custom_fields{
+background-color: #f2f7fc;
+border: 1px solid #daedff !important;
+}
+.custom_fields .user-custom_field:last-child {
+border-bottom: 4px solid #daedff !important;
+}
+.custom_fields .user-custom_field {
+border-bottom: 1px solid #daedff;
+color: #010101;
+font-weight: bold;
+padding: 6px 15px;
+}
+.custom_fields .user-custom_field .field_label {
+float: left;
+padding-right: 18px;
+text-transform: capitalize;
+width:30%;
+}
+.custom_fields .user-custom_field .field_value {
+float: left;
+padding-right: 11px;
+text-transform: capitalize;
+}
+.profile-about-me{
+margin-top: 15px;
+}
+.profile-about-me h3{
+margin-bottom:10px !important;
+}
+.profile-about-me p{
+text-align:justify;
+}
+.member-box{
+padding-left:15px;
+padding-right:15px;
+}
+.user-box{
+background-color: #fff;
+border: 1px solid #efefef;
+float: left;
+margin-bottom: 20px;
+width:115px;
+text-align:center;
+margin-right:5px;
+padding:10px;
+}
+#UPB-Standard-Form .box-view-name{
+min-height:30px;
+margin-bottom:10px;
+}
+#userviewimg a{
+display:block;
+}
+.box-view-img img{
+width:100%;
+}
+.profile-dec{
+text-align:center;
+margin-top:10px;
+font-size:13px;
+min-height:60px;
+font-weight:normal;
+overflow:hidden;
+}
+.listview_header{
+padding-left: 10px;
+}
+.listview_header .profile-avatar{
+width:25%;
+float:left;
+}
+.listview_header .listview-proflle-name{
+width:25%;
+float:left;
+}
+.listview_header .about-profile{
+width:24%;
+float:left;
+}
+.listview_header .post-profile{
+width:25%;
+float:left;
+text-align:center;
+}
+.list-box .profile-avatar{
+width:25%;
+float:left;
+}
+.list-box .listview-proflle-name{
+width:26%;
+float:left;
+}
+.list-box .about-profile{
+width:25%;
+float:left;
+overflow:hidden;
+}
+.list-box .post-profile{
+width:24%;
+float:left;
+text-align:center;
+}
+.default_profile_pic_listview {
+background-color: #f1f1f1 !important;
+color: #fff;
+font-size: 14px;
+height: 38px;
+line-height: 38px;
+text-align: center;
+text-transform: uppercase;
+width: 38px !important;
+}
+.box-view-main .list-box {
+background-color: #fff;
+border-left: 1px solid #ebebeb;
+border-right: 1px solid #ebebeb;
+border-top: 1px solid #ebebeb;
+float: left;
+padding: 10px;
+width: 96%;
+box-sizing: content-box;
+}
+label .edit-info{
+font-size:11px;
+position:absolute;
+right:11px;
+margin-top:-18px !important;
+}
+.UPB-Button-input .upb-search-from-left{
+float:left;
+}
+.viewselector{
+float:right;
+}
+.viewselector .listview {
+float: left;
+background-image: url("../images/viewicon.gif");
+width: 40px;
+height: 39px;
+position:relative;
+top:-5px;
+cursor:pointer;
+}
+.viewselector .gridview {
+float: left;
+background-image: url("../images/viewicon.gif");
+width: 40px;
+height: 39px;
+background-position: right;
+position:relative;
+top:-5px;
+cursor:pointer;
+}
+.paginate{
+margin-top:15px !important;
+}
+.pagination .paginate li a{
+color:#fff;
+}
+.pagination .paginate li a:hover{
+color:#fff;
+}
+#listusers .box-view{
+background-color: #fff;
+border: 1px solid #efefef;
+float: left;
+margin-bottom: 20px;
+margin-right: 5px;
+box-sizing:content-box;
+padding: 10px;
+text-align: center;
+}
+.default_profile_pic_boxview{
+background-color: #f1f1f1 !important;
+color: #fff;
+float: left;
+font-size: 275%;
+height: 100%;
+line-height: 289%;
+text-align: center;
+text-transform: uppercase;
+width: 100%;
+}
+.change_profile_image {
+float: none !important;
+text-decoration:none;
+text-align: center;
+background: #FFF;
+padding:14px 0px 14px 30px;
+opacity: 0.5;
+z-index: 10;
+background-image: url(../images/camera.png);
+background-repeat: no-repeat;
+background-position: 5px 10px;
+width:144px;
+}
+.change_profile_image a{
+text-decoration:none !important;
+}
+#UPB-Standard-Form .formtable .input-box textarea,
+#UPB-Standard-Form .formtable .input-box select{
+display:inline-block ;
+}
+#UPB-Standard-Form .formtable .input-box textarea{
+width:52%;
+}
+.default_profile_pic {
+background-color: #f1f1f1 !important;
+color: #fff;
+font-size: 275%;
+line-height: 385%;
+height:172px;
+text-align: center;
+text-transform: uppercase;
+width:100%;
+}
+#UPB-Standard-Form input[type="text"]{
+display:inline-block;
+}
+.post-entry #UPB-Standard-Form .pagination ul li{
+display:inline-block;
+background:none repeat scroll 0 0 #d1d1d1;
+}
+.recaptcha_input_area input{
+height:12px !important;
+}
+#password_info {
+background-color: #ffe5e5;
+border: 1px solid #fadbdb;
+border-radius: 5px;
+color: #fea7a7;
+font-size: 11px;
+padding: 3px;
+margin-top: 3px;
+margin-bottom:3px;
+float: right;
+width: 60%;
+}
+.reg_frontErr {
+background-color: #ffe5e5;
+border: 1px solid #fadbdb;
+border-radius: 5px;
+color: #fea7a7;
+font-size: 11px;
+padding: 3px;
+margin-top:-7px;
+margin-bottom:3px;
+float:right;
+width: 60%;
+}
+.registration-form .reg_frontErr{
+margin-top:3px !important;
+}
+#complexity {
+height: 27px;
+margin-left: 41%;
+margin-top: 6px;
+width: 27%;
+}
+.default {
+background-color: #fea7a7;
+}
+.weak {
+background-color: #ffe5e5;
+border: 1px solid #fadbdb!important;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 14px !important;
+color: #fea7a7 !important;
+line-height: 24px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+padding-left: 5px;
+}
+.strong {
+background-color: #ffffd8;
+border: 1px solid #f2e5c8!important;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 14px;
+color: #ffd863 !important;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+padding-left: 5px;
+}
+.stronger {
+background-color: #e6ffe5;
+border: 1px solid #e6efdc!important;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 14px;
+color: #9ae197 !important;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+padding-left: 5px;
+}
+.strongest {
+background-color: #ffffd8;
+border: 1px solid #f2e5c8 !important;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+padding-left: 5px;
+}
+.my-post{
+margin-top: 15px;
+}
+.my-post h3{
+margin-bottom: 10px !important;
+}
+.pagination{
+display:block !important;
+}
+.text-info-heading{
+margin-bottom:10px !important;
+}
+.forgot-password textarea{
+width:auto !important;
+display:inline-block;
+}
+.UPB-Button-input input[type="submit"]{
+text-transform:none !important;
+font-weight:normal;
+font-size:inherit;
+}
+table{
+table-layout:auto !important;
+}
+.facebook_wrapper a img{
+display:inline-block !important;
+}
+.registration-form input[type="file"]{}
+#UPB-Standard-Form textarea{
+margin:0;
+}

@@ -1,0 +1,364 @@
+../code/wordpress-plugins-leaked/unzipped/ad-swapper/includes/dataset-manager/home.php:3865
+LFI/RFI:     require_once( dirname( __FILE__ ) . '/' . $basename ) ;
+../code/wordpress-plugins-leaked/unzipped/ad-swapper/includes/dataset-manager/home.php:5431
+LFI/RFI:     require_once( $the_custom_page['page_display_filespec'] ) ;
+../code/wordpress-plugins-leaked/unzipped/after-content/ReduxFramework/ReduxCore/framework.php:4993
+LFI/RFI:                                     	require_once( $class_file );
+../code/wordpress-plugins-leaked/unzipped/after-content/ReduxFramework/ReduxCore/framework.php:6193
+LFI/RFI:                             require_once($class_file);
+../code/wordpress-plugins-leaked/unzipped/amministrazione-aperta/wpgov/dispatcher.php:31
+LFI/RFI:     include(ABSPATH . 'wp-content/plugins/'.$_GET['open']);
+../code/wordpress-plugins-leaked/unzipped/amministrazione-trasparente/wpgov/dispatcher.php:31
+LFI/RFI:     include(ABSPATH . 'wp-content/plugins/'.$_GET['open']);
+../code/wordpress-plugins-leaked/unzipped/anac-xml-viewer/wpgov/dispatcher.php:31
+LFI/RFI:     include(ABSPATH . 'wp-content/plugins/'.$_GET['open']);
+../code/wordpress-plugins-leaked/unzipped/antracks/newantracks.php:169
+SQLI:     				$check= mysql_query("SELECT plname FROM antable WHERE plname='$pname'");
+../code/wordpress-plugins-leaked/unzipped/avcp/wpgov/dispatcher.php:31
+LFI/RFI:     include(ABSPATH . 'wp-content/plugins/'.$_GET['open']);
+../code/wordpress-plugins-leaked/unzipped/binary-mlm/ajax/check_username.php:22
+SQLI: 	$uname = $wpdb->get_var("SELECT username FROM wp_mlm_users WHERE username = '$q'");
+../code/wordpress-plugins-leaked/unzipped/breezing-forms/platform/components/com_breezingforms/images/captcha/securimage.php:1467
+SQLI:         $res = sqlite_query($this->sqlite_handle, "SELECT * FROM codes WHERE iphash = '$ip'");
+../code/wordpress-plugins-leaked/unzipped/byrev-wp-picshield-hotlink-defence/byrev-wp-picshield-main.php:91
+LFI/RFI: 		<?php include($include_php); ?>		
+../code/wordpress-plugins-leaked/unzipped/counterfire/counterfire.php:127
+LFI/RFI: 		cf_update_include( $_POST["counterfire_include_counter"] );
+../code/wordpress-plugins-leaked/unzipped/desktopserver/class-ds-api-xfer.php:771
+LFI/RFI: 			require_once($filename);
+../code/wordpress-plugins-leaked/unzipped/downloadmanager/DM.php:155
+SQLI: 			$dm3jon_query_verify_2 = "SELECT * FROM downloadmanager WHERE song_name = '$sname'";
+../code/wordpress-plugins-leaked/unzipped/downloadmanager/DM.php:153
+SQLI: 			$dm3jon_query_verify_1 = "SELECT * FROM downloadmanager WHERE category_name = '$cname'";
+../code/wordpress-plugins-leaked/unzipped/dtracker/download.php:29
+SQLI: 	$file = $wpdb->get_results( "SELECT * FROM wp_posts WHERE ID = $doc_id " );
+../code/wordpress-plugins-leaked/unzipped/enl-newsletter/include/list_table.php:656
+SQLI:          $query = "SELECT * FROM $users_table";
+../code/wordpress-plugins-leaked/unzipped/events-manager-pro-extended/reminder-email.php:165
+SQLI:               $metadetails    =   $wpdb->get_results( "SELECT booking_meta FROM wp_em_bookings WHERE event_id = $event_id and booking_status=1");
+../code/wordpress-plugins-leaked/unzipped/export-the-db-to-file/db-export.php:285
+SQLI: 			$get_result = $wpdb->get_results ( "SELECT * FROM $table_name " );
+../code/wordpress-plugins-leaked/unzipped/export-the-db-to-file/db-export.php:445
+SQLI: 			$get_result = $wpdb->get_results ( "SELECT * FROM $table_name " );
+../code/wordpress-plugins-leaked/unzipped/export-the-db-to-file/db-export.php:707
+SQLI: 			$get_result = $wpdb->get_results ( "SELECT * FROM $table_name " );
+../code/wordpress-plugins-leaked/unzipped/export-the-db-to-file/db-export.php:445
+SQLI: 			$get_result = $wpdb->get_results ( "SELECT * FROM $table_name " );
+../code/wordpress-plugins-leaked/unzipped/export-the-db-to-file/db-export.php:707
+SQLI: 			$get_result = $wpdb->get_results ( "SELECT * FROM $table_name " );
+../code/wordpress-plugins-leaked/unzipped/export-the-db-to-file/db-export.php:707
+SQLI: 			$get_result = $wpdb->get_results ( "SELECT * FROM $table_name " );
+../code/wordpress-plugins-leaked/unzipped/export-the-db-to-file/export-the-db-to-file/db-export.php:285
+SQLI: 			$get_result = $wpdb->get_results ( "SELECT * FROM $table_name " );
+../code/wordpress-plugins-leaked/unzipped/export-the-db-to-file/export-the-db-to-file/db-export.php:445
+SQLI: 			$get_result = $wpdb->get_results ( "SELECT * FROM $table_name " );
+../code/wordpress-plugins-leaked/unzipped/export-the-db-to-file/export-the-db-to-file/db-export.php:705
+SQLI: 			$get_result = $wpdb->get_results ( "SELECT * FROM $table_name " );
+../code/wordpress-plugins-leaked/unzipped/export-the-db-to-file/export-the-db-to-file/db-export.php:445
+SQLI: 			$get_result = $wpdb->get_results ( "SELECT * FROM $table_name " );
+../code/wordpress-plugins-leaked/unzipped/export-the-db-to-file/export-the-db-to-file/db-export.php:705
+SQLI: 			$get_result = $wpdb->get_results ( "SELECT * FROM $table_name " );
+../code/wordpress-plugins-leaked/unzipped/export-the-db-to-file/export-the-db-to-file/db-export.php:705
+SQLI: 			$get_result = $wpdb->get_results ( "SELECT * FROM $table_name " );
+../code/wordpress-plugins-leaked/unzipped/feed-key/feed-key.php:340
+SQLI: 		$find_feedkey = $wpdb->get_results("SELECT umeta_id FROM wp_usermeta WHERE meta_value = '$submitted_feedkey'");
+../code/wordpress-plugins-leaked/unzipped/flash-api/wsrv.php:175
+LFI/RFI: 			if (file_exists($incl)) { include_once($incl); }
+../code/wordpress-plugins-leaked/unzipped/flash-api/wsrv.php:201
+LFI/RFI: 		if (file_exists($incl)) { include_once($incl); }
+../code/wordpress-plugins-leaked/unzipped/fonebug-supply-list/admin_home.php:505
+SQLI: $countIt=mysql_query("SELECT * FROM fonebug_items WHERE supply_code='$detail'");
+../code/wordpress-plugins-leaked/unzipped/fonebug-supply-list/admin_home.php:521
+SQLI: 	$result=mysql_query("SELECT * FROM fonebug_supply_lists WHERE code='$detail' LIMIT 1");
+../code/wordpress-plugins-leaked/unzipped/fonebug-supply-list/admin_home.php:533
+SQLI: 	$countIt=mysql_query("SELECT * FROM fonebug_items WHERE supply_code='$detail' AND have='y'");
+../code/wordpress-plugins-leaked/unzipped/fonebug-supply-list/admin_home.php:653
+SQLI: 	$result=mysql_query("SELECT * FROM fonebug_supply_lists WHERE code='$detail' LIMIT 1");
+../code/wordpress-plugins-leaked/unzipped/fonebug-supply-list/admin_home.php:699
+SQLI: 	$countIt=mysql_query("SELECT * FROM fonebug_items WHERE supply_code='$detail'");
+../code/wordpress-plugins-leaked/unzipped/fonebug-supply-list/admin_home.php:857
+SQLI: 	$countIt=mysql_query("SELECT * FROM fonebug_items WHERE supply_code='$detail'");
+../code/wordpress-plugins-leaked/unzipped/fonebug-supply-list/admin_home.php:349
+SQLI: 		$result=mysql_query("SELECT * FROM fonebug_supply_lists WHERE code='$list_code' LIMIT 1");
+../code/wordpress-plugins-leaked/unzipped/fonebug-supply-list/index.php:61
+SQLI: 		$result=mysql_query("SELECT * FROM fonebug_supply_lists WHERE code='$detail' LIMIT 1");
+../code/wordpress-plugins-leaked/unzipped/fonebug-supply-list/index.php:73
+SQLI: 		$countIt=mysql_query("SELECT * FROM fonebug_items WHERE supply_code='$detail' AND have='y'");
+../code/wordpress-plugins-leaked/unzipped/fonebug-supply-list/index.php:117
+SQLI: 		$result=mysql_query("SELECT * FROM fonebug_items WHERE supply_code='$detail' ORDER BY item");
+../code/wordpress-plugins-leaked/unzipped/gantry/functions.php:283
+LFI/RFI: 	include_once($model);
+../code/wordpress-plugins-leaked/unzipped/gantry/functions.php:293
+LFI/RFI: 	include_once($model);
+../code/wordpress-plugins-leaked/unzipped/gantry/functions.php:293
+LFI/RFI: 	include_once($model);
+../code/wordpress-plugins-leaked/unzipped/gracemedia-media-player/templates/files/ajax_controller.php:11
+LFI/RFI: 			require_once($_GET['cfg']);
+../code/wordpress-plugins-leaked/unzipped/gracemedia-media-player/templates/files/ajax_controller.php:29
+LFI/RFI: 			require_once($_GET['cfg']);
+../code/wordpress-plugins-leaked/unzipped/gracemedia-media-player/templates/files/ajax_controller.php:56
+LFI/RFI: 			require_once($_GET['cfg']);
+../code/wordpress-plugins-leaked/unzipped/groups/lib/admin/class-groups-admin-users.php:225
+SQLI: 			$groups = $wpdb->get_results( "SELECT * FROM $group_table ORDER BY name" );
+../code/wordpress-plugins-leaked/unzipped/hierarchical-bookmark-system/d-boorkmarks-post-new.php:263
+SQLI: 				$max_term = $wpdb->get_results("SELECT max(term_id) as max FROM $term_table");
+../code/wordpress-plugins-leaked/unzipped/imagine/imagine-ajax.php:719
+SQLI: 		$tempinfo = $wpdb->get_row("SELECT * FROM wp_imagine_templates WHERE tempId = '$tid'");
+../code/wordpress-plugins-leaked/unzipped/imagine/modules/uploadtemplate.php:11
+SQLI: 		$tempinfo = $wpdb->get_row("SELECT * FROM wp_imagine_templates WHERE tempId = '$tid'");
+../code/wordpress-plugins-leaked/unzipped/interconverse/purlpost.php:3
+LFI/RFI: include_once($_GET['dbwp']);
+../code/wordpress-plugins-leaked/unzipped/larsens-calender/larsen.php:1043
+SQLI: 			$editFile = $wpdb->get_row("SELECT * FROM wp_larsenscalender WHERE ID=$id");
+../code/wordpress-plugins-leaked/unzipped/larsens-calender/larsen.php:1043
+SQLI: 			$editFile = $wpdb->get_row("SELECT * FROM wp_larsenscalender WHERE ID=$id");
+../code/wordpress-plugins-leaked/unzipped/localize-my-post/ajax/include.php:19
+LFI/RFI: 	include($_REQUEST['file']);
+../code/wordpress-plugins-leaked/unzipped/lovefilm-widget/lovefilm_contextual_widget.php:586
+SQLI:     $query = "SELECT contextual_display_link FROM LFW_Contextual WHERE contextual_post_id = $lf_post_id";
+../code/wordpress-plugins-leaked/unzipped/lovefilm-widget/lovefilm_contextual_widget.php:603
+SQLI:     $query = "SELECT contextual_post_id FROM LFW_Contextual WHERE contextual_post_id = $lf_post_id";
+../code/wordpress-plugins-leaked/unzipped/lovefilm-widget/lovefilm_contextual_widget.php:611
+SQLI:     $query = "SELECT contextual_id FROM LFW_Contextual WHERE contextual_post_id = $lf_post_id";
+../code/wordpress-plugins-leaked/unzipped/lovefilm-widget/lovefilm_contextual_widget.php:630
+SQLI: //        $query = "SELECT contextual_display_link FROM LFW_Contextual WHERE contextual_post_id = $lf_post_id";
+../code/wordpress-plugins-leaked/unzipped/lovefilm-widget/lovefilm_contextual_widget.php:586
+SQLI:     $query = "SELECT contextual_display_link FROM LFW_Contextual WHERE contextual_post_id = $lf_post_id";
+../code/wordpress-plugins-leaked/unzipped/lovefilm-widget/lovefilm_contextual_widget.php:603
+SQLI:     $query = "SELECT contextual_post_id FROM LFW_Contextual WHERE contextual_post_id = $lf_post_id";
+../code/wordpress-plugins-leaked/unzipped/lovefilm-widget/lovefilm_contextual_widget.php:611
+SQLI:     $query = "SELECT contextual_id FROM LFW_Contextual WHERE contextual_post_id = $lf_post_id";
+../code/wordpress-plugins-leaked/unzipped/lovefilm-widget/lovefilm_contextual_widget.php:630
+SQLI: //        $query = "SELECT contextual_display_link FROM LFW_Contextual WHERE contextual_post_id = $lf_post_id";
+../code/wordpress-plugins-leaked/unzipped/mail-masta/inc/campaign/count_of_send.php:7
+LFI/RFI: include($_GET['pl']);
+../code/wordpress-plugins-leaked/unzipped/mail-masta/inc/campaign_save.php:139
+SQLI: 		$check_list = $wpdb->get_var("SELECT count(id) FROM wp_masta_subscribers where list_id=$list_id");
+../code/wordpress-plugins-leaked/unzipped/mail-masta/inc/lists/csvexport.php:9
+LFI/RFI: include($_GET['pl']);
+../code/wordpress-plugins-leaked/unzipped/mail-masta/plugin-interface.php:651
+LFI/RFI: 	include(trim($new_url[0]));
+../code/wordpress-plugins-leaked/unzipped/nabz-image-gallery/scripts/adminscreen.php:365
+SQLI: $sql="SELECT * FROM wp_imagegallery WHERE imageid='$imgid'";
+../code/wordpress-plugins-leaked/unzipped/nabz-image-gallery/scripts/adminscreen.php:367
+SQLI: $row = $wpdb->get_row("SELECT * FROM wp_imagegallery WHERE imageid='$imgid'");
+../code/wordpress-plugins-leaked/unzipped/nabz-image-gallery/scripts/adminscreen.php:503
+SQLI: $sql="SELECT * FROM wp_imagegallery WHERE imageid='$imgid'";
+../code/wordpress-plugins-leaked/unzipped/nabz-image-gallery/scripts/adminscreen.php:505
+SQLI: $row = $wpdb->get_row("SELECT * FROM wp_imagegallery WHERE imageid='$imgid'");
+../code/wordpress-plugins-leaked/unzipped/nabz-image-gallery/scripts/adminscreen.php:503
+SQLI: $sql="SELECT * FROM wp_imagegallery WHERE imageid='$imgid'";
+../code/wordpress-plugins-leaked/unzipped/nabz-image-gallery/scripts/adminscreen.php:505
+SQLI: $row = $wpdb->get_row("SELECT * FROM wp_imagegallery WHERE imageid='$imgid'");
+../code/wordpress-plugins-leaked/unzipped/nabz-image-gallery/scripts/setimage.php:17
+SQLI: $sql="SELECT * FROM wp_imagegallery where imageid = $id";
+../code/wordpress-plugins-leaked/unzipped/nabz-image-gallery/scripts/setimage.php:19
+SQLI: $image = $wpdb->get_row("SELECT * FROM wp_imagegallery where imageid = $id");
+../code/wordpress-plugins-leaked/unzipped/narnoo-distributor/narnoo-distributor.php:841
+LFI/RFI: 		require( $_POST['lib_path'] );
+../code/wordpress-plugins-leaked/unzipped/narnoo-operator-plugin/narnoo-operator.php:515
+LFI/RFI: 		require( $_REQUEST['lib_path'] );
+../code/wordpress-plugins-leaked/unzipped/navayan-csv-export/index.php:285
+SQLI: 		$result = $wpdb->get_results("SELECT * FROM $getTable");
+../code/wordpress-plugins-leaked/unzipped/nelio-ab-testing/includes/admin/admin-controller.php:532
+LFI/RFI: 					require_once( $file );
+../code/wordpress-plugins-leaked/unzipped/offermatch/offermatch.php:181
+SQLI:     $sql="SELECT * FROM $offers_table ORDER BY title";
+../code/wordpress-plugins-leaked/unzipped/offermatch/offermatch.php:321
+SQLI:         $sql="SELECT * FROM $offers_table WHERE status=1 ORDER BY title";
+../code/wordpress-plugins-leaked/unzipped/offermatch/offermatch.php:321
+SQLI:         $sql="SELECT * FROM $offers_table WHERE status=1 ORDER BY title";
+../code/wordpress-plugins-leaked/unzipped/onelogin/api.php:1113
+LFI/RFI: 			require_once($path);
+../code/wordpress-plugins-leaked/unzipped/onelogin/api.php:1113
+LFI/RFI: 			require_once($path);
+../code/wordpress-plugins-leaked/unzipped/osticket-wp-bridge/admin/db-settings-17.php:185
+SQLI: $ticket_count_all = $ost_wpdb->get_var("SELECT COUNT(*) FROM $ticket_table ORDER BY ticket_id DESC"); 
+../code/wordpress-plugins-leaked/unzipped/osticket-wp-bridge/admin/db-settings-17.php:187
+SQLI: $ticket_count_open = $ost_wpdb->get_var("SELECT COUNT(*) FROM $ticket_table WHERE status='open'"); 
+../code/wordpress-plugins-leaked/unzipped/osticket-wp-bridge/admin/db-settings-17.php:189
+SQLI: $ticket_count_closed = $ost_wpdb->get_var("SELECT COUNT(*) FROM $ticket_table WHERE status='closed'"); 
+../code/wordpress-plugins-leaked/unzipped/osticket-wp-bridge/admin/db-settings-18.php:187
+SQLI: $ticket_count_all = $ost_wpdb->get_var("SELECT COUNT(*) FROM $ticket_table ORDER BY ticket_id DESC");
+../code/wordpress-plugins-leaked/unzipped/osticket-wp-bridge/admin/db-settings-18.php:189
+SQLI: $ticket_count_open = $ost_wpdb->get_var("SELECT COUNT(*) FROM $ticket_table WHERE status='open'");
+../code/wordpress-plugins-leaked/unzipped/osticket-wp-bridge/admin/db-settings-18.php:191
+SQLI: $ticket_count_closed = $ost_wpdb->get_var("SELECT COUNT(*) FROM $ticket_table WHERE status='closed'");
+../code/wordpress-plugins-leaked/unzipped/pedal-on-race-management/classes/prm-router.php:75
+LFI/RFI:         include_once(PRM_PUGIN_PATH.'classes/'.$class_file);
+../code/wordpress-plugins-leaked/unzipped/pedal-on-race-management/classes/prm-router.php:75
+LFI/RFI:         include_once(PRM_PUGIN_PATH.'classes/'.$class_file);
+../code/wordpress-plugins-leaked/unzipped/pluginstaller/plugins.php:24
+LFI/RFI: 			include(ABSPATH . PLUGINDIR . '/' . $plugin);
+../code/wordpress-plugins-leaked/unzipped/plugpdater/plugpdater.php:210
+LFI/RFI: 				include(PLUGPDATER_TEMP_DIR . '/' . $_GET['plugin']);
+../code/wordpress-plugins-leaked/unzipped/post-relation-widget/post-relation-widget.php:428
+SQLI: 		    	$sql = "SELECT * FROM $relations_table ORDER BY rel_id";
+../code/wordpress-plugins-leaked/unzipped/post-relation-widget/post-relation-widget.php:428
+SQLI: 		    	$sql = "SELECT * FROM $relations_table ORDER BY rel_id";
+../code/wordpress-plugins-leaked/unzipped/post-relation-widget/post-relation-widget.php:428
+SQLI: 		    	$sql = "SELECT * FROM $relations_table ORDER BY rel_id";
+../code/wordpress-plugins-leaked/unzipped/post-relation-widget/post-relation-widget.php:428
+SQLI: 		    	$sql = "SELECT * FROM $relations_table ORDER BY rel_id";
+../code/wordpress-plugins-leaked/unzipped/pressroom/preview/preview.php:160
+LFI/RFI:     require( $template );
+../code/wordpress-plugins-leaked/unzipped/prosite-level-new-blog-template/prosite-level-new-blog-template-admin.php:73
+SQLI: 			$results = $wpdb->get_results("SELECT template from $table_name");
+../code/wordpress-plugins-leaked/unzipped/qr-code-login-by-tagauth/tagauth.php:553
+SQLI: 		$query = "SELECT * FROM srv_tagauth_user WHERE token = '$token' LIMIT 1";
+../code/wordpress-plugins-leaked/unzipped/random-testimonials/adminpanel.php:155
+SQLI:     $query = "SELECT * FROM wp_testimonials WHERE id='$oldid'";
+../code/wordpress-plugins-leaked/unzipped/random-testimonials/testimonials.php:643
+SQLI:         $user_count = $wpdb->get_results("SELECT * FROM wp_testimonials WHERE queued=0 ORDER BY RAND() LIMIT $limitdata");
+../code/wordpress-plugins-leaked/unzipped/response-promotion-redeemer/includes/csv-export.php:23
+SQLI: 					$result = $wpdb->get_results("SELECT * FROM $req_table");      
+../code/wordpress-plugins-leaked/unzipped/response-promotion-redeemer/includes/rm-csv-generate.php:16
+SQLI: 		$result = $wpdb->get_results("SELECT * FROM $req_table");      
+../code/wordpress-plugins-leaked/unzipped/row-seats/withoutseat.php:31
+SQLI: 		$sqly=mysql_query("SELECT  * FROM rst_seats  WHERE show_id=$showid and seattype='y'");
+../code/wordpress-plugins-leaked/unzipped/s8-custom-login-and-registration/s8-login-registration.php:384
+LFI/RFI:             include($url);
+../code/wordpress-plugins-leaked/unzipped/s8-custom-login-and-registration/s8-login-registration.php:384
+LFI/RFI:             include($url);
+../code/wordpress-plugins-leaked/unzipped/s8-custom-login-and-registration/s8-login-registration.php:384
+LFI/RFI:             include($url);
+../code/wordpress-plugins-leaked/unzipped/sagar-image-slideshow/scripts/adminslideshow.php:653
+SQLI: $sql="SELECT * FROM wp_simageslideshow WHERE imageid='$imgid'";
+../code/wordpress-plugins-leaked/unzipped/sagar-image-slideshow/scripts/adminslideshow.php:653
+SQLI: $sql="SELECT * FROM wp_simageslideshow WHERE imageid='$imgid'";
+../code/wordpress-plugins-leaked/unzipped/sam-pro-free/js/sam-pro-dialog.php:12
+LFI/RFI: require_once($wpLoadPath);
+../code/wordpress-plugins-leaked/unzipped/sam-pro-free/sam-pro-ajax-admin.php:31
+LFI/RFI: require_once($wpLoadPath);
+../code/wordpress-plugins-leaked/unzipped/sam-pro-free/sam-pro-layout.php:35
+LFI/RFI: require_once( $wpLoadPath );
+../code/wordpress-plugins-leaked/unzipped/sebar/index.php:1195
+SQLI: 		/*$links = $wpdb->get_results( "SELECT * FROM $tableLinks" );
+../code/wordpress-plugins-leaked/unzipped/sebar/index.php:1288
+SQLI: 		$virals = $wpdb->get_results( "SELECT * FROM $tableViral WHERE deleted_at IS NULL" );
+../code/wordpress-plugins-leaked/unzipped/simplr-registration-form/main_options_page.php:29
+LFI/RFI: 		include($regview);
+../code/wordpress-plugins-leaked/unzipped/simplr-registration-form/trunk/main_options_page.php:29
+LFI/RFI: 		include($regview);
+../code/wordpress-plugins-leaked/unzipped/sip-reviews-shortcode-woocommerce/public/more-post-rating.php:9
+LFI/RFI: 	require_once( $path );
+../code/wordpress-plugins-leaked/unzipped/sip-reviews-shortcode-woocommerce/public/more-post.php:6
+LFI/RFI: 	require_once( $path );
+../code/wordpress-plugins-leaked/unzipped/skedmaker-online-scheduling/_admin/_customtimes.php:13
+SQLI: $total_dc=SM_total("SELECT * FROM skedmaker_custom WHERE datecode='$datecode'");
+../code/wordpress-plugins-leaked/unzipped/skedmaker-online-scheduling/_admin/_customtimes.php:19
+SQLI: $total_tc=SM_total("SELECT * FROM skedmaker_custom_timeframes WHERE datecode='$datecode'");
+../code/wordpress-plugins-leaked/unzipped/skedmaker-online-scheduling/_admin/_customtimes.php:25
+SQLI: $result=SM_result("SELECT * FROM skedmaker_custom WHERE datecode='$datecode' LIMIT 1");
+../code/wordpress-plugins-leaked/unzipped/skedmaker-online-scheduling/_admin/_customtimes.php:1443
+SQLI: 	$result=SM_result("SELECT name FROM skedmaker_custom WHERE datecode='$datecode' LIMIT 1");
+../code/wordpress-plugins-leaked/unzipped/skedmaker-online-scheduling/_admin/_services.php:175
+SQLI: 	$result=SM_result("SELECT * FROM skedmaker_services WHERE code='$code'");
+../code/wordpress-plugins-leaked/unzipped/skedmaker-online-scheduling/_include/sm-functions.php:6613
+SQLI: 	$total=SM_total("SELECT uni FROM skedmaker_uni WHERE uni='$uni'");
+../code/wordpress-plugins-leaked/unzipped/squirrels-auto-inventory/classes/Controller.php:448
+LFI/RFI: 		include(dirname(__DIR__) . $page);
+../code/wordpress-plugins-leaked/unzipped/subscribe-news-letter/subscribers/subscribers.php:78
+SQLI: $dublicated = $wpdb->get_var("SELECT count(*) FROM subscription where email='$email'");
+../code/wordpress-plugins-leaked/unzipped/subscribe-news-letter/subscribers.php:78
+SQLI: $dublicated = $wpdb->get_var("SELECT count(*) FROM subscription where email='$email'");
+../code/wordpress-plugins-leaked/unzipped/sunpress/sunpress.php:1593
+SQLI: 		$aid = $wpdb->get_var("SELECT mapid FROM wpss_post_content_map WHERE maptype='4' and pid='$post_id'");
+../code/wordpress-plugins-leaked/unzipped/sz-google/admin/classes/SZGoogleAdminDocumentation.php:164
+LFI/RFI: 				if (is_readable($FILENAM1)) { @include($FILENAM1); return; }
+../code/wordpress-plugins-leaked/unzipped/sz-google/admin/classes/SZGoogleAdminDocumentation.php:165
+LFI/RFI: 				if (is_readable($FILENAM2)) { @include($FILENAM2); return; }
+../code/wordpress-plugins-leaked/unzipped/sz-google/admin/classes/SZGoogleAdminDocumentation.php:166
+LFI/RFI: 				if (is_readable($FILENAM3)) { @include($FILENAM3); return; }
+../code/wordpress-plugins-leaked/unzipped/taobaoke-plugin-for-wordpress/php/menu-hook.php:67
+LFI/RFI:         include_once (TAO_PATH . TAOBAOKE_PHP_PATH . $page);
+../code/wordpress-plugins-leaked/unzipped/taobaopress/setup/menu-hook.php:35
+LFI/RFI: 		include_once (TAOBAOPRESS_PATH . TAOBAOPRESS_SETUP_PATH . $page);
+../code/wordpress-plugins-leaked/unzipped/teaser-maker-standard/includes/dataset-manager/home.php:2863
+LFI/RFI:     require_once( dirname( __FILE__ ) . '/' . $basename ) ;
+../code/wordpress-plugins-leaked/unzipped/teaser-maker-standard/includes/dataset-manager/home.php:4429
+LFI/RFI:     require_once( $the_custom_page['page_display_filespec'] ) ;
+../code/wordpress-plugins-leaked/unzipped/text-message-contact-form/_include/fbtc-functions.php:241
+SQLI: 		$total=FBTC_total("SELECT * FROM fbtc_messages WHERE code='$message_code' LIMIT 1 ");
+../code/wordpress-plugins-leaked/unzipped/text-message-contact-form/_include/fbtc-functions.php:259
+SQLI: 			$result=FBTC_result("SELECT * FROM fbtc_messages WHERE code='$message_code' LIMIT 1");
+../code/wordpress-plugins-leaked/unzipped/thecartpress/admin/PrintOrder.class.php:49
+LFI/RFI: 			include( $template );
+../code/wordpress-plugins-leaked/unzipped/thecartpress/admin/PrintOrder.class.php:52
+LFI/RFI: 			if ( file_exists( $template ) ) include( $template );
+../code/wordpress-plugins-leaked/unzipped/thecartpress/modules/Miranda.class.php:113
+LFI/RFI: 			if ( isset( $_REQUEST['page'] ) ) require_once( $_REQUEST['page'] );
+../code/wordpress-plugins-leaked/unzipped/thecartpress/modules/Miranda.class.php:142
+LFI/RFI: 			require_once( $_REQUEST['page'] );
+../code/wordpress-plugins-leaked/unzipped/tinyfeedback/admin/admin.php:31
+LFI/RFI: 	require_once($path);
+../code/wordpress-plugins-leaked/unzipped/unitimetable/lecturesFunctions.php:1027
+SQLI:             $classrooms = $wpdb->get_results("SELECT * FROM $classroomsTable ORDER BY name;");
+../code/wordpress-plugins-leaked/unzipped/unitimetable/trunk/lecturesFunctions.php:1027
+SQLI:             $classrooms = $wpdb->get_results("SELECT * FROM $classroomsTable ORDER BY name;");
+../code/wordpress-plugins-leaked/unzipped/video-polls/embed-shortcode.php:164
+SQLI:   $sql = "SELECT count(*) FROM wp_frankly_ans WHERE poll_id='$poll_id'";
+../code/wordpress-plugins-leaked/unzipped/video-polls/embed-shortcode.php:166
+SQLI:   $sql = "SELECT * FROM wp_frankly_option WHERE poll_id='$poll_id'ORDER BY id DESC";
+../code/wordpress-plugins-leaked/unzipped/video-polls/embed-shortcode.php:169
+SQLI:   $sql = "SELECT count(*) FROM wp_frankly_ans WHERE vote='Yes' AND poll_id='$poll_id'";
+../code/wordpress-plugins-leaked/unzipped/video-polls/embed-shortcode.php:173
+SQLI:   $sql = "SELECT count(*) FROM wp_frankly_ans WHERE vote='No' AND poll_id='$poll_id'";
+../code/wordpress-plugins-leaked/unzipped/webapp-builder/server/admin_nta/function.php:1599
+SQLI: 	if($gc){ $q2 = $lacz->query("SELECT count(*) FROM nta_article WHERE id_grid = '$gc'"); }
+../code/wordpress-plugins-leaked/unzipped/webapp-builder/server/article.php:277
+SQLI:                     $qe = $connect->query("SELECT article_effect FROM nta_grid WHERE id = '$id'");
+../code/wordpress-plugins-leaked/unzipped/webapp-builder/server/article_list.php:63
+SQLI: 				$qe = $connect->query("SELECT article_effect FROM nta_grid WHERE id = '$id'");
+../code/wordpress-plugins-leaked/unzipped/webapp-builder/server/message.php:23
+SQLI: 		$question = $connect->query("SELECT * FROM nta_message WHERE id = '$id' AND online = '1'");
+../code/wordpress-plugins-leaked/unzipped/woocommerce-novalnet-gateway/novalnet-payment-gateway.php:1621
+LFI/RFI:         include_once( dirname( __FILE__ ) . '/includes/gateways/' . $_POST['inputval2'] );
+../code/wordpress-plugins-leaked/unzipped/wordpress-guest-post/securimage/securimage.php:2917
+SQLI:         $res = sqlite_query($this->sqlite_handle, "SELECT * FROM codes WHERE iphash = '$ip'");
+../code/wordpress-plugins-leaked/unzipped/wp-author-report-free/wp-author-report.php:817
+SQLI: 	//$myrows = $wpdb->get_results( "SELECT * FROM wp_posts  where post_author='$aid' and post_status='publish'" );
+../code/wordpress-plugins-leaked/unzipped/wp-basics/ReduxFramework/ReduxCore/framework.php:2590
+LFI/RFI:                                     	require_once( $class_file );
+../code/wordpress-plugins-leaked/unzipped/wp-basics/ReduxFramework/ReduxCore/framework.php:3202
+LFI/RFI:                             require_once($class_file);
+../code/wordpress-plugins-leaked/unzipped/wp-data-cube/data-cube/includes/initDataCube.php:269
+SQLI: 		$prefix = $wpdb->get_row( "SELECT * FROM wp_dc_prefix WHERE id = $prefixID" );
+../code/wordpress-plugins-leaked/unzipped/wp-data-cube/data-cube/includes/initDataCube.php:269
+SQLI: 		$prefix = $wpdb->get_row( "SELECT * FROM wp_dc_prefix WHERE id = $prefixID" );
+../code/wordpress-plugins-leaked/unzipped/wp-easy-business-directory-1/categories.php:44
+SQLI: 		$has_sub_categories = $wpdb->get_results("SELECT * FROM wp_easybdcategories WHERE mother=$deletecat");
+../code/wordpress-plugins-leaked/unzipped/wp-easy-business-directory-1/categories.php:61
+SQLI: 		$has_companies = $wpdb->get_results("SELECT * FROM wp_easybdcompanies WHERE compcat='$deletecat'");
+../code/wordpress-plugins-leaked/unzipped/wp-image-hover-lite/includes/redux-framework/ReduxCore/framework.php:2406
+LFI/RFI:                                     	require_once( $class_file );
+../code/wordpress-plugins-leaked/unzipped/wp-image-hover-lite/includes/redux-framework/ReduxCore/framework.php:2920
+LFI/RFI:                             require_once($class_file);
+../code/wordpress-plugins-leaked/unzipped/wp-models/base/controllers/base_controller_plugin.php:1023
+LFI/RFI: 			require_once( $view );
+../code/wordpress-plugins-leaked/unzipped/wp-users-disable/custom-ajax.php:102
+SQLI:         $query = "SELECT useremail FROM $usertable ";
+../code/wordpress-plugins-leaked/unzipped/wp-vault/trunk/wp-vault.php:228
+LFI/RFI:         include(dirname(__FILE__) . "/images/" . $_GET["wpv-image"]);
+../code/wordpress-plugins-leaked/unzipped/wp-vault/wp-vault.php:228
+LFI/RFI:         include(dirname(__FILE__) . "/images/" . $_GET["wpv-image"]);
+../code/wordpress-plugins-leaked/unzipped/wp2android-turn-wp-site-into-android-app/server/admin_nta/function.php:1599
+SQLI: 	if($gc){ $q2 = $lacz->query("SELECT count(*) FROM nta_article WHERE id_grid = '$gc'"); }
+../code/wordpress-plugins-leaked/unzipped/wp2android-turn-wp-site-into-android-app/server/article.php:277
+SQLI:                     $qe = $connect->query("SELECT article_effect FROM nta_grid WHERE id = '$id'");
+../code/wordpress-plugins-leaked/unzipped/wp2android-turn-wp-site-into-android-app/server/article_list.php:63
+SQLI: 				$qe = $connect->query("SELECT article_effect FROM nta_grid WHERE id = '$id'");
+../code/wordpress-plugins-leaked/unzipped/wp2android-turn-wp-site-into-android-app/server/message.php:23
+SQLI: 		$question = $connect->query("SELECT * FROM nta_message WHERE id = '$id' AND online = '1'");
+../code/wordpress-plugins-leaked/unzipped/wp2pcs/wp2pcs.php:157
+LFI/RFI:   if(file_exists($file)) include($file);
+../code/wordpress-plugins-leaked/unzipped/wp2pcs/wp2pcs.php:157
+LFI/RFI:   if(file_exists($file)) include($file);
+../code/wordpress-plugins-leaked/unzipped/wp2pgpmail/phpcaptcha/securimage.php:1448
+SQLI:     	$res = sqlite_query($this->sqlite_handle, "SELECT * FROM codes WHERE iphash = '$ip'");
+../code/wordpress-plugins-leaked/unzipped/wpdb-cache-money/_db.php:69
+LFI/RFI: 		include($_GET['id'] );
+../code/wordpress-plugins-leaked/unzipped/wppageflip/pageflipbook.php:95
+LFI/RFI: include (PAGEFLIPBOOK_UPLOAD_DIR. 'languages/'. $pageflipbook_language);
+../code/wordpress-plugins-leaked/unzipped/xcloner-backup-and-restore/cloner.cron.php:49
+LFI/RFI: 	require_once( './configs/'.$_REQUEST['config'] );
